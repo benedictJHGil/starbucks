@@ -72,6 +72,7 @@
 }
 .notice .notice-line .inner {
     height: 62px;
+    z-index: 1;
     display: flex;
 }
 .notice .notice-line .inner .inner__left {
@@ -169,6 +170,7 @@
     bottom: 40px;
     left: 0;
     right: 0;
+    z-index: 0;
 }
 .notice .promotion .swiper-pagination .swiper-pagination-bullet {
     background-color: transparent;
